@@ -1,5 +1,5 @@
 /*============== Carga asincrona remixicon  ===============*/
-var link = document.createElement('link');
+const link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css';
 document.head.appendChild(link);
