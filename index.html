@@ -12,8 +12,10 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
   <!-- ====================STYLES======================= -->
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/yt-lazyload.min.css">
   <!-- ====================JS======================= -->
   <script defer src="assets/js/main.js"></script>
+  
   
   
 </head>
@@ -245,7 +247,7 @@
       <div class="edicion__2021">
         <h3>Edición 2021</h3>
         <div class="ediciones_container container">
-            <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/uymNo5govDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+          <div class="yt-lazyload" data-id="uymNo5govDI" ></div>
         </div>
         
       </div>
@@ -314,6 +316,7 @@
     <i class="ri-arrow-up-double-fill"></i>
   </a>
   <script  src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/yt-lazyload.min.js"></script>
 </body>
 
 </html>
